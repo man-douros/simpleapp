@@ -14,7 +14,7 @@ spec:
         app: mandobook-ui
     spec:
       containers:
-      - image: docker.io/library/httpd
+      - image: docker.io/bitnami/apache
         name: mandobook-ui
         ports:
         - containerPort: 80
